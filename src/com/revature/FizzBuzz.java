@@ -6,10 +6,10 @@ package com.revature;
 * This program will run FizzBuzz. You can run this following the
 * directions in the README.
 *
-* @author YourNameHere
+* @author Zach Leonarde
 */
 class FizzBuzz {
 	public static void main (String[] args) {
-		//TODO: FizzBuzz
+		System.out.print("I am the almighty FizzBuzz!");
 	}
 }
