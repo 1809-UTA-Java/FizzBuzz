@@ -14,6 +14,9 @@ class FizzBuzz {
             else if (i % 5 == 0) {
                 System.out.print( "Buzz\n" );
             }
+            else if ((i % 5 == 0) && (i % 3 == 0)) {
+                System.out.print( "Buzz\n" );
+            }
             else {
                 System.out.print( i + "\n");
 	    }
