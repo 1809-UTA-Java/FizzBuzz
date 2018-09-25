@@ -9,8 +9,22 @@ package com.revature;
 * @author Leonardo De Leon
 */
 class FizzBuzz {
+	public static void fizzBuzz(int numTotal) {
+		
+		for (int i = 1; i < numTotal; i++) {
+			if (i % 3 == 0) {
+				System.out.print("Fizz,");
+				
+			} else if (i % 5 == 0) {
+				System.out.print("Buzz,");
+			} else {
+				System.out.print(i+",");
+			}
+		}
+	}
 	public static void main (String[] args) {
 		//TODO: FizzBuzz
-		System.out.println("Hey there fellow FizzBuzzler, this is Leonardo");
+		System.out.println("Here is a fun way to count using Fizz Buzz: ");
+		fizzBuzz(100);
 	}
 }
